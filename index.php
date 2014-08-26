@@ -1,15 +1,15 @@
-<?php 
+<?php
+
 require './vendor/autoload.php';
 
 use Wispiring\Utils;
 
-$page = $_GET['page'];
+$page   = $_GET['page'];
 $action = $_GET['action'];
-try {   
-    $d = new Utils();
-    $d-> test();exit;
-    Utils::test();exit;
-    Utils::router($page, $action);
+$id        = $_GET['id'];
+
+try {
+    Utils::router($page, $action, $id);
 } catch (Exception $e) {
     $code = $e->getCode();
     if ($code === 404) {

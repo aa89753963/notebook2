@@ -10,9 +10,9 @@
     "require": {
 
     },
-	"autoload":{
-		"psr-0":{
-			"Wispiring\\": "src/"
-		}	
-	}
+    "autoload": {
+        "psr-0": {
+            "Wispiring\\": "src/"
+        }
+    }
 }
