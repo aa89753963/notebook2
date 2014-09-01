@@ -1,5 +1,5 @@
 <?php
- 
+
 namespace Wispiring\Notebook;
 
 class Notebook
@@ -9,5 +9,5 @@ class Notebook
     private $message;
 
     private $acthor;
-    
+
 }

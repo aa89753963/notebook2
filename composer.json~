@@ -9,7 +9,7 @@
     "minimum-stability": "dev",
     "require": {
 	"smarty/smarty": "dev-trunk",
-	"simplon/mysql": "dev-master"
+	simplon/mysql": "dev-master"
     },
     "autoload": {
         "psr-0": {

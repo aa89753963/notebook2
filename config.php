@@ -1,3 +1,9 @@
-<?php 
-    require './vender/autoload.php';
-    require './config.php';
+<?php
+
+$dbname = 'notebook';
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpassword = '';
+
+$thema = 'default';
+
